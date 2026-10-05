@@ -54,11 +54,19 @@ Smart Escape is a browser-based evacuation route simulator built with HTML, CSS,
 
 ## Run the App
 
-Because this is a static web app, you can run it locally with a simple HTTP server.
+This project is a static web app and can be hosted on GitHub Pages.
 
-### Option 1: Python
+### GitHub Pages
 
-From the project folder, run:
+After pushing the project to GitHub, enable GitHub Pages in the repository settings and use the published site URL:
+
+```text
+https://mehrab-hossen.github.io/Smart_Escape_Practice/
+```
+
+### Local development
+
+If you want to run it locally before publishing, use a simple static server:
 
 ```bash
 python -m http.server 8000
@@ -70,7 +78,7 @@ Then open:
 http://localhost:8000/
 ```
 
-### Option 2: VS Code Live Server
+### VS Code Live Server
 
 Open the project in VS Code and run it with a local static server extension such as Live Server.
 
